@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.b-primary{
+  background-color: rgba(29, 161, 242, 1); 
+  color :rgba(255, 255, 255, 1);
+  width: 228px;
+  height: 39px;
+  padding: 15px, 93px, 15px, 93px;
+  border-radius: 9999px;
+  gap: 10px
+
+   
+}
+
+.b-primary-2{
+  background-color: rgba(29, 161, 242, 1); 
+  color :rgba(255, 255, 255, 1);
+  border-radius: 9999px;
+  gap: 10px
+}
+
+.input{
+  }
+
+.input:focus{
+  background-color: rgba(29, 161, 242, 1) !important; 
+  color :rgba(255, 255, 255, 1) !important;
+  
+}
+
+
+
+
+.custom-form {
+  background-color: rgba(255, 255, 255, 1); /* Adjust form background color */
+  color: rgba(0, 0, 0, 1); /* Adjust text color for form */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.custom-form select,
+.custom-form input,
+.custom-form input[type="email"],
+.custom-form input[type="select"],
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form input,.custom-form textarea {
+  background-color: rgb(255, 255, 255); /* Adjust input background color */
+  color: rgba(0, 0, 0, 1); /* Adjust input text color */
+  border: 1px solid rgba(29, 161, 242, 1); /* Adjust input border */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.custom-form input[type="email"]:focus,
+.custom-form input[type="password"]:focus,
+.custom-form textarea:focus {
+  border-color: rgba(27, 161, 242, 1); /* Adjust input border color on focus */
+ 
+}
+
+.sch{
+  border: 1px solid rgba(29, 161, 242, 1) !important; /* Adjust input border */
+}
+
+.sch :focus{
+  border-color: rgba(27, 161, 242, 1) !important; /* Adjust input border color on focus */
+ 
+}
+.custom-form button {
+  background-color: rgba(29, 161, 242, 1); /* Adjust button background color */
+  color: rgba(255, 255, 255, 1); /* Adjust button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-form button:hover {
+  background-color: rgba(1, 140, 242, 1); /* Adjust button background color on hover */
+  border-color:  rgba(1, 161, 242, 1);
+}
+
+
+.b-shado{
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.font-1{
+  color: rgba(29, 161, 242, 1); ;
+}
+
+/* Target autofill input */
+input:-webkit-autofill {
+  /* Change background color */
+  background-color: #f3f3f3 !important;
+  /* Change font color */
+  color: #333 !important;
+  
+}
+
+.m-l{
+  margin-left: 1rem !important;
+}
+
+
+.tweet-card {
+border: 1px solid #ccc !important;
+border-radius: 10px !important;
+padding: 15px !important;
+margin-bottom: 20px !important;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px !important;
+}
+
+
+
+.bg-1{
+  font-size: 1rem !important;
+  color : rgba(29, 161, 242, 1)  !important;
+}
+
+.bg-2{
+  font-size: 1rem !important;
+  color : #ee0db9 !important;
+}
+
+.bg-3{
+  font-size: 1rem !important;
+  color:antiquewhite !important;
+  background-color: rgba(29, 161, 242, 1)  !important ;
+}
+
+.bg-1:hover,
+.bg-2:hover,
+.bg-3:hover{
+
+  background-color: transparent !important;
+  
+}
+
+
+.bg-4{
+  font-size: 1rem !important;
+  background-color: rgba(29, 161, 242, 1)  !important ;
+  color: #f3f3f3 !important;
+}
+.f-3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem;
+}
+
+
+
+.cl{
+  cursor: pointer;
+
+}
+
+.cl {
+  cursor: pointer;
+}
+
+.cl:hover {
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+.bg-9{
+  background-color: rgba(29, 161, 242, 1)  !important ;
+}
+
+.ml1{
+  margin-left: 1rem;
+}
+
+.bg-15{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(29, 161, 242, 1)  !important ;
+  font-size: 1.5rem;
+  box-shadow: rgba(29, 161, 242, 1) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.bg-16{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(29, 161, 242, 1)  !important ;
+  font-size: 1rem !important;
+  background-color: #f3f3f3 !important;
+  box-shadow: rgb(229, 247, 248) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  font-weight: 700 !important;
+}
+
+.cp{
+  cursor: pointer;
+}
+
+.bw{
+  width: 50% !important;
+}
+
+.fs{
+  font-size: 1rem !important;
+  font-family: var(--mdb-btn-font-family) !important;
+}
+
+
+.nav-own{
+  margin-bottom: 2rem !important;
+  width: 100% !important;
+  z-index: 999 !important;
+  position: fixed !important;
+  background-color: white !important;
+}
+
+
+
+.bg-icon {
+  color: rgba(29, 161, 242, 1)  !important ;
+  font-size: 2.5rem !important;
+  background-color: #f3f3f3 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5rem !important;
+}
+
+.ml6{
+  margin-left: 0.7rem !important;
+}
